@@ -1,8 +1,8 @@
 **Integrantes del Equipo:**
 **SQUAD 2.2**
 
-- Miluska Romero Torres
-- Wendy Hachilla Aquise
+- Miluska Romero Torres (https://github.com/Milumon)
+- Wendy Hachilla Aquise (https://github.com/WendySule)
 - Lisbeth Rivera Jacobo
  
   >
