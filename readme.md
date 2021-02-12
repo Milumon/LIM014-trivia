@@ -19,24 +19,20 @@
    **Usuario dirigido:** A los microempresarios y emprendedores. 
 
 
-![texto]
-(https://i.imgur.com/SnuSKQa.png)
+![texto](https://i.imgur.com/SnuSKQa.png)
 
    **2.** Solicitamos un feedback del boceto de la hoja.
 
-![texto]
-(https://i.imgur.com/khcA7Ml.jpg)
+![texto](https://i.imgur.com/khcA7Ml.jpg)
 
    **3.** En el aplicativo **Figma** se realizó el diseño y fue donde tomó forma nuestras ideas, dándole color, imágenes, organizando los botones y finalmente como iba a ser el camino de experiencia del usuario.
 
    Link: https://www.figma.com/file/0PhvKBgFAqOOKPLGta9VtB/La-Trivia-del-Ahorro?node-id=1%3A5
 
-![texto]
-(https://i.imgur.com/YSKqZR9.png)
+![texto](https://i.imgur.com/YSKqZR9.png)
    **4.** Solicitamos un feedback de lo realizado en **Figma** y de nuestros primeros avances en HTML con CSS.
 
-![texto]
-(https://i.imgur.com/djoWOFZ.png)
+![texto](https://i.imgur.com/djoWOFZ.png)
 
    **5.** Luego se realizó la estructura en el **HTML** para plasmar el contenido de la hoja. Así ibamos creando las secciones, párrafos, encabezados, enlaces y elementos de cita en bloque.
 
@@ -46,8 +42,7 @@
 
   Link: https://incredibleawkwardcomputationallinguistics.miluskaromero.repl.co/
 
-  ![texto]
-(https://i.imgur.com/amVxCSK.jpg)
+  ![texto](https://i.imgur.com/amVxCSK.jpg)
 
 **Dificultades técnicas**
 
@@ -86,8 +81,7 @@ Solución: Subimos las imágenes de la web a la carpeta de repl.it, llamada "img
 
 
 **SQUAD # 2.2 :D** 
-![texto]
-(https://i.imgur.com/ZlIvJOl.png)
+![texto](https://i.imgur.com/ZlIvJOl.png)
 
 Desde el primer día hemos congeniado muy bien, nos hemos apoyado mucho, cada una maneja y conoce herramientas diferentes. Todas tenemos habilidades distintas con lo cual nos hemos podido complementar.
 A pesar de que hemos tenido momentos de estrés, pánico, desvelos, hemos sabido manejarlo aún con muchas dificultades, entre ensayo y error han salido unas sonrisas y hasta carcajadas =D . Consideramos que esta semana ha sido corta, sin embargo, hemos aprendido mucho una de la otra y sentimos que esta amistad va a transcender. =,D
@@ -95,11 +89,9 @@ A pesar de que hemos tenido momentos de estrés, pánico, desvelos, hemos sabido
 **SQUAD 2**
 Con nuestro grupo del SQUAD 2 tuvimos un compañerismo increíble , nos hemos apoyado mucho entre nosotras, dándonos retroalimentación contínua sobre nuestros proyectos y compartiendo mucha información relevante para seguir mejorando y aprendiendo cada día más. 
 
-![texto]
-(https://i.imgur.com/MSyW5Lh.png)
+![texto](https://i.imgur.com/MSyW5Lh.png)
 
-![texto]
-(https://i.imgur.com/0Z4hkS5.png)
+![texto](https://i.imgur.com/0Z4hkS5.png)
 
 ¡Muchas gracias Laboratoria!
 ¡Muchas gracias Vania!
