@@ -1,0 +1,281 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 1200px;
+  background: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* primera pantalla  boxONE */
+
+#boxOne {
+
+  margin-top: 180px;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 600px;
+  background-color: rgba(139, 223, 191, 0.5);
+  border-radius: 10px;
+    border: 1px groove  #04151F;
+
+
+} 
+
+input[type=button]:hover, input[type=submit]:hover, #buttonA:hover, #buttonB:hover {
+  cursor:pointer; 
+  background-color:white;
+  color: black;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#boxOne>h1 {
+  color: #FFF05A;
+  font-size: 60px;
+  font-weight: 400;
+  background-color: #183A37;
+    border-radius: 10px; 
+  border: 1px groove  #000000;
+}
+
+#boxOne>h2 {
+  margin-top: 55px;
+  color: #432534;
+  font-size: 35px;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 10px; 
+  padding: 10px 0px; 
+  border: 1px groove#8C8784;
+}
+
+#boxOne> #nameInput { 
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  margin-top: 60px; 
+  font-size: 25px;
+  font-weight: 400; 
+  border-radius: 10px;  
+}
+
+.play {
+  margin-top: 70px;
+  padding: 5px 25px 5px 25px;
+  color: white;
+  font-size: 42px;
+  font-weight: 400; 
+  border-radius: 32px;
+  background-color:#C44900; 
+}
+
+#buttonA, #buttonB {
+  margin-top: 20px;
+  padding: 5px 25px 5px 25px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400; 
+  border-radius: 32px;
+  background-color:#C44900; 
+}
+
+
+/* segunda pantalla  boxSelectCategory */
+
+
+#boxSelectCategory {
+  box-sizing: border-box;
+  margin-top: 180px;
+  padding: 50px;
+  text-align: center;
+  width: 1000px;
+  height: 600px;
+  background-color: rgba(139, 223, 191, 0.5);
+  border-radius: 10px;
+    border: 1px groove  #04151F;
+
+
+} 
+
+#boxSelectCategory > h1 {
+  
+  color: #FFF05A;
+  font-size: 62px;
+  font-weight: 400;
+  background-color: #183A37;
+    border-radius: 10px; 
+  border: 1px groove  #000000;
+}
+
+#boxSelectCategory > h1 > p {
+  display: inline-block;
+}
+
+#imgSaving {
+width: 200px;
+height: 200px; 
+background-image: url("img/categoryA.jpg");
+background-size: cover;
+border-radius: 30px;
+}
+
+#imgBussiness{
+width: 200px;
+height: 200px; 
+background-image: url("img/categoryB.jpg");
+background-size: cover;
+border-radius: 30px;
+}
+
+#categories {
+  display: inline-block;
+  margin: 0px 64px;
+}
+
+#menuCategory {
+  margin-top: 50px;
+}
+
+#boxSelectCategory> h2 {
+  display: inline-block;
+  margin-top: 50px;
+  color: #432534;
+  font-size: 35px;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 10px; 
+  padding: 6px 40px;
+  border: 1px groove#8C8784;
+  
+}
+
+
+/* Cuarta pantalla  categoryA */
+
+#categoryA, #categoryB {
+  text-align: center;
+  line-height: 2.4;
+  margin-top: 50px;
+  padding: 28px;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 730px;
+  background-color: rgba(139, 223, 191, 0.5);  
+  border-radius: 10px;
+  border: 1px groove  #04151F;
+}
+ 
+#categoryA> #container > h3, #categoryB> #container > h3 {
+  padding-left: 15px;
+  border-radius: 27px; 
+  font-size: 23px;
+  background-color: rgba(31, 55, 42, 0.79);
+  color: white;
+  margin-bottom: 12px;
+} 
+
+#container {
+  text-align: left;
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 20px;
+    padding: 18px 18px 12px 18px;
+    margin-bottom: 20px; 
+
+}
+
+.btnSEND { 
+  padding: 5px 25px 5px 25px;
+  color: white;
+  font-size: 28px;
+  font-weight: 700; 
+  border-radius: 32px;
+  background-color:#C44900; 
+}
+
+/* Pantalla de resultado */
+
+#boxResult {
+
+  text-align: center;
+  line-height: 2.4;
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  padding: 28px;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 760px;
+  background-color: rgba(139, 223, 191, 0.5);  
+  border-radius: 10px;
+  border: 1px groove  #04151F;
+
+}
+
+#boxResult > #container > h3 > p {
+  display: inline-block;
+}
+
+
+
+#boxResult > #container > h4 > p {
+    font-size: 17px;
+    display: inline-block;
+    color: black;
+}
+
+#result > p {
+   font-size: 32px;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 23px;
+    padding: 0px 25px;
+    border: 3px black solid;
+}
+
+#boxResult > #container > h4 { 
+    background-color: rgba(255, 235, 51, 0.71);
+    border-radius: 20px;
+    padding-left: 20px;
+    color: green;
+    margin-bottom: 15px;
+} 
+
+#boxResult > h1 { 
+font-size: 33px;
+}
+
+#boxResult > #container,  #boxResult > #container > h3  { 
+font-size: 18px;
+}
+
+#result {
+    text-align: center;
+    width: 200px;
+    height: 170px;
+}
+
+
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+  
+
+.subtitle, .user {
+  display: inline-block;
+}

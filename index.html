@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia del Ahorro</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="Home" class="Home" > 
+
+
+     <div id="boxOne" class="show">
+      <h1>¡Bienvenido a la Trivia del Ahorro!</h1>
+      <h2>Descubre los mejores tips para ahorrar divirtiéndote</h2> 
+
+      <input type="text" id="nameInput" placeholder="Coloca tu nombre aquí">
+
+      <input type="button" class="play" value="Enviar" onclick="nextOne()">
+    </div>
+
+    <div id="boxSelectCategory" class="hide">
+
+      <h1>¡<p id="nameOutput"></p>, ahorra conmigo!</h1> 
+      <h2>Elige un tema </h2>
+      
+    <div id="menuCategory">
+      <div id="categories">
+      <div id="imgSaving"></div>
+      <input type="button" id="buttonA" value="Ahorro Personal" onclick="showCategoryA()">      
+      </div> 
+
+       <div id="categories">
+      <div id="imgBussiness"></div>
+      <input type="button" id="buttonB"
+        value="Ahorro negocio" onclick="showCategoryB()">
+    </div>
+    
+</div>
+</div>
+    <div id="categoryA" class="hide"> 
+        <form id="formA"> 
+<div id="container"> 
+      <h3>¿Qué objetivo debes establecer primero para tu plan de ahorro personal?</h3>
+
+      <input type="radio" name="answerOneA" value="0" required>
+      <label for="answerA1">El primer objetivo es guardar muy poco y pensar en grande</label><br>
+      <input type="radio" name="answerOneA" value="1">
+      <label for="answerA1">Debes establecer un objetivo de presupuesto personal</label><br>
+      <input type="radio" name="answerOneA" value="0">
+      <label for="answerA1">No debes iniciar ningún objetivo</label>
+</div>
+<div id="container"> 
+      <h3>¿Cuánto es lo ideal para gastar y ahorrar?</h3>
+
+      <input type="radio" name="answerTwoA" value="0" required>
+      <label for="answerTwoA">El 50% en gastos de recreación, el otro 50% en gastos básicos y si me sobra lo ahorro</label><br>
+      <input type="radio" name="answerTwoA" value="1">
+      <label for="answerTwoA">El 50% para tus gastos más básicos, el 20% para ahorros y el 30% para gastos personales</label><br>
+      <input type="radio"  name="answerTwoA" value="0">
+      <label for="answerTwoA">Gastar todo tu sueldo sin prevenir emergencias  </label>
+</div>
+<div id="container"> 
+      <h3>¿Que es mejor un presupuesto mensual o anual?</h3>
+
+      <input type="radio" name="answerThreeA" value="1" required>
+      <label for="answerThreeA">No hay un presupuesto mejor que otro, elige el que mejor se adapte a tu estilo de vida</label><br>
+      <input type="radio" name="answerThreeA" value="0">
+      <label for="answerThreeA">Ninguno trae ventajas</label><br>
+      <input type="radio" name="answerThreeA" value="0">
+      <label for="answerThreeA">No es necesario hacer un presupuesto</label>
+</div>
+      <input type="submit" class="btnSEND" value="Enviar">   
+ 
+
+    </div>
+ </form> 
+    <div id="categoryB" class="hide">
+      
+  <form id="formB">
+<div id="container"> 
+  
+      <h3>¿Qué herramientas te ayudan a cumplir tu objetivo de ahorrar en tu negocio?</h3>
+
+      <input type="radio" name="answerOneB" value="0" required>
+      <label for="answerOneB">Tener varios préstamos con intereses altos</label><br>
+      <input type="radio" name="answerOneB" value="0" >
+      <label for="answerOneB">Gestionar los gastos de mi negocio y personal juntos</label><br>
+      <input type="radio" name="answerOneB" value="1">
+      <label for="answerOneB">Tener un gestor de gastos y un presupuesto mensual y/o anual</label>
+</div>
+<div id="container"> 
+
+      <h3>¿Cómo puedes ahorrar gastos en tu negocio?</h3>
+
+      <input type="radio" name="answerTwoB" value="0"  required>
+      <label for="answerTwoB">Realiza compras impulsivas sin medir los gastos</label><br>
+      <input type="radio" name="answerTwoB"  value="1">
+      <label for="answerTwoB">Gestiona correctamente los gastos básicos, existe muchas facilidades para comparar precios</label><br>
+      <input type="radio" name="answerTwoB" value="0">
+      <label for="answerTwoB">Contratar servicios sin comparar precios ni realizar negociaciones</label>
+</div>
+<div id="container"> 
+
+      <h3>¿Qué modalidad de trabajo te ayudaría a ahorrar en tu negocio?</h3>
+
+      <input type="radio" name="answerThreeB" value="1" required>
+      <label for="answerThreeB">Trabajar desde casa</label><br>
+      <input type="radio" name="answerThreeB" value=""0>
+      <label for="answerThreeB">Trabajar desde una oficina lujosa alquilada</label><br>
+      <input type="radio" name="answerThreeB" value="0">
+      <label for="answerThreeB">No hay una modalidad de trabajo para ahorrar</label>
+</div>
+
+      <input type="submit" class="btnSEND" value="Enviar">  
+
+ </form>
+    </div>
+
+
+<div id="boxResult" class="hide">
+    
+    <div id="result"> <h1>RESULTADOS</h1> 
+    <p id="counter"></p></div>
+  <div id="container"> 
+  <h3>Pregunta 1: <p id="result1" class="red"></p> </h3> 
+   <h4> Respuesta correcta: <p class="green" id="answer1">  </p></h4> 
+    
+  </div>
+  <div id="container"> 
+    <h3>Pregunta 2: <p id="result2" class="red"></p></h3>
+    <h4>Respuesta correcta: <p id="answer2"> </p></h5> 
+    
+   </div>
+  <div id="container" style="margin-bottom: 30px;"> 
+    <h3>Pregunta 3: <p id="result3" class="red"></p></h3>
+    <h4>Respuesta correcta: <p id="answer3"> </p></h4>   
+  
+ </div> 
+      <input type="button" class="btnSEND" value="Volver a jugar" onclick="playAgain()">
+      <input type="button" class="btnSEND" value="Retornar al incio" onclick="returnHome()"> 
+    </div> 
+  </section> 
+ 
+</body>
+
+  <script src="script.js"></script> 
+
+</html> 
